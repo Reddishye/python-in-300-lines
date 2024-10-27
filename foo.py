@@ -61,7 +61,7 @@ else:
 
 foo = [1, 2, 3, 4, 5] # Now foo is an array with numbers from 1 to 5
 
-if (3 in foo[0] and len(foo) == 5) or foo[4] == 5: # If 3 is in the first element of foo and the length of foo is 5, or the last element of foo is 5
+if (3 in foo and len(foo) == 5) or foo[4] == 5: # If 3 is in the first element of foo and the length of foo is 5, or the last element of foo is 5
     print("The conditions are met") # Print this string
 
 # We can also use loops to repeat code, for example, we can use a for loop to print all the elements of an array
